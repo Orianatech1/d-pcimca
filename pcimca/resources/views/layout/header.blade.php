@@ -480,7 +480,7 @@
             });
         </script>
 
-<div class="enquiry-form" id="enquiryForm" style="background-color: rgb(235, 191, 17)">
+<div class="enquiry-form" id="enquiryForm" style="background-color:#ffcc01">
 <div class="form-header">
 <h2>Contact Us</h2>
 <span class="close-btn" id="closeBtn">&times;</span>
