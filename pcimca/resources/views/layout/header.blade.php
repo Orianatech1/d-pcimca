@@ -97,15 +97,15 @@
     </script>
 
     <!-- header section start -->
-    <div class="header width100" style="overflow: hidden;position: relative;">
+    <div class="header width100">
         <div class="width100 header_background">
-            <div class="width1240" style="position: relative;">
+            <div class="width1240">
                 <div class="width100 top_box1">
                     <div class="width100">
                         <div class="Logo" data-aos="fade-down">
                             <a href="{{ ('/') }}"> <img src="/assets/images/LOGOFINAL.png" id="logoimg"></a>
                         </div>
-                        <div class="logo_text" style="color:white; margin-left: 10px;">
+                        <div class="logo_text" style="color:white; margin-left: 12px;">
                             <h6 align="left">Purandhar Technical Education Society’s.</h6>
                             <h5 align="left">PUNE CAMBRIDGE INSTITUTE OF MANAGEMENT AND COMPUTER APPLICATION</h5>
                             <h6 align="left">Approved by AICTE, Recognised by DTE & Affiliated to Savitribai Phule Pune
@@ -361,7 +361,7 @@
                  right: -300px;
                  top: 30%;
                  width: 300px;
-                 min-height: 70%
+                 min-height: 60%
                  background-color: #ffdd1f;
                  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
                  padding: 15px;
@@ -431,7 +431,7 @@
              .open-btn {
                  position: fixed;
                  right: 0;
-                 top: 50%;
+                 top: 60%;
                  transform: translateY(-50%);
                  padding: 15px 30px;
                  background-color: #920457;

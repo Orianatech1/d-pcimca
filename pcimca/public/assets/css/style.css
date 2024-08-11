@@ -160,7 +160,7 @@ a:hover {
 
     /* background-image: url(../images/university_img.png); */
 
-    background-image: linear-gradient(220deg, #f6af09 0%, #ff9901 90%);
+    background-image: linear-gradient(220deg, #811859 0%, #ffcc01 80%);
 
     background-repeat: no-repeat;
 
@@ -353,7 +353,7 @@ a:hover {
 
 }
 
-
+/* slider banner  */
 
 .owl-carousel_homebanner .owl-dots {
 
@@ -585,7 +585,7 @@ a:hover {
 
 .white_list:hover {
 
-    background-image: linear-gradient(220deg, #931abf 0%, #cf0c6a 90%);
+    background-image: linear-gradient(220deg, #bf1a82 0%, #610632 90%);
 
     padding: 50px 0px 40px 0px;
 
@@ -705,7 +705,7 @@ a:hover {
 
     font-family: Metropolis-SemiBold;
 
-    color: #512A74;
+    color: #71015a;
 
     font-size: 18px;
 
@@ -8631,7 +8631,7 @@ table tr a:hover {
 
         float: left;
 
-        background-color: #672f98;
+        background-color: #810744;
 
         border-radius: 10px;
 
@@ -8661,7 +8661,7 @@ table tr a:hover {
 
         font-size: 16px;
 
-        border-bottom: 1px dashed #9965c7;
+        border-bottom: 1px dashed #510533;
 
         padding: 10px 10px;
 
