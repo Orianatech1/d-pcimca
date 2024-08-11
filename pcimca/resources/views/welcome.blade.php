@@ -1,0 +1,661 @@
+@extends('layout.main')
+@section('main-content')
+
+
+        <div class="width100">
+            <style>
+                .bannerForm .row {
+                    background: #ffcc01;
+                    padding: 10px 10px;
+                    border-radius: 20px;
+                }
+
+                .bannerForm h3 {
+                    text-align: center;
+                    font-size: 1.5em;
+                    color: #fff;
+                    text-transform: uppercase;
+                    padding-bottom: 10px;
+                }
+
+                .bannerForm {
+                    position: absolute;
+                    top: 5%;
+                    right: 5%;
+                    z-index: 2;
+                }
+
+                .bannerForm input[type="text"] {
+                    width: 100%;
+                    padding: 2px;
+                    outline: 0px;
+                    border: 0px;
+                    margin-bottom: 2px;
+                    border-radius: 3px;
+                }
+
+                .bannerForm input[type="submit"] {
+                    width: 100%;
+                    padding: 2px;
+                    outline: 0px;
+                    border: 0px;
+                    background: #d2973f;
+                    color: #fff;
+                    border-radius: 3px;
+                }
+
+                .bannerForm select {
+                    width: 100%;
+                    padding: 2px;
+                    outline: 0px;
+                    border: 0px;
+                    height: 20px;
+                    margin-bottom: 2px;
+                    border-radius: 3px;
+                }
+
+                .title-effect .bar {
+                    display: none;
+                }
+
+                .bannerForm input[type="tel"] {
+                    width: 100%;
+                    padding: 2px;
+                    outline: 0px;
+                    border: 0px;
+                    margin-bottom: 2px;
+                    border-radius: 3px;
+                }
+
+                .bannerForm input[type="email"] {
+                    width: 100%;
+                    padding: 2px;
+                    outline: 0px;
+                    border: 0px;
+                    margin-bottom: 2px;
+                    border-radius: 3px;
+                }
+
+                .bannerFormCapcha {
+                    padding: 0px;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 16px;
+                    display: flex;
+                }
+
+                .bannerFormCapcha span {
+                    line-height: 42px;
+                }
+
+                .plus-captcha {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .bannerFormCapcha input[type="text"] {
+                    width: 100%;
+                    padding: 2px;
+                    outline: 0px;
+                    border: 0px;
+                    margin-bottom: 2px;
+                    float: right;
+                    border-radius: 3px;
+                }
+
+                #particles-js {
+                    width: 100%;
+                    display: block;
+                    z-index: 0;
+
+                    position: relative;
+                }
+
+                #particles-js.fixed {
+                    position: fixed;
+                    top: 0;
+                }
+
+                .particles-js-canvas-el {
+                    position: absolute;
+                    top: 0;
+                }
+
+                #particles-js .carousel-item img {
+                    height: 90vh;
+                }
+
+                #particles-js .carousel-caption {
+                    top: 30%;
+                    width: 50%;
+                    left: 5%;
+                    text-align: left;
+                }
+
+                #particles-js .carousel-caption h2 {
+                    font-size: 4em;
+                    color: #fff;
+                    text-shadow: 1px 1px 1px #000;
+                }
+
+                .instant .modal-dialog {
+                    max-width: 800px;
+                }
+            </style>
+
+            <section id="particles-js">
+                <div class="owl-carousel_homebanner">
+                    <div class="item">
+                        <div class="container">
+                            <div class="banner_section width100">
+                                <div class="width100 banner_img_box"
+                                    style="background-image: url(assets/images/slider/2.png);">
+                                    <div class="banner_leftbox" data-aos="fade-right">
+                                        <div class="banner_text1">Embark on the </div>
+                                        <div class="banner_text2">Journey to Excellence Today...</div>
+                                        <div class="banner_link width100">
+                                            <a target="_blank" href="">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="banner_section width100">
+                                <div class="width100 banner_img_box"
+                                    style="background-image: url(assets/images/slider/3.png);">
+                                    <div class="banner_leftbox" data-aos="fade-right">
+                                        <div class="banner_text1">Shaping Tomorrow's World </div>
+                                        <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                        <div class="banner_link width100">
+                                            <a target="_blank" href="">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="banner_section width100">
+                                <div class="width100 banner_img_box"
+                                    style="background-image: url(assets/images/slider/7.png);">
+                                    <div class="banner_leftbox" data-aos="fade-right">
+                                        <div class="banner_text1">Building Careers. </div>
+                                        <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                        <div class="banner_link width100">
+                                            <a target="_blank" href="">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="banner_section width100">
+                                <div class="width100 banner_img_box"
+                                    style="background-image: url(assets/images/slider/4.png);">
+                                    <div class="banner_leftbox" data-aos="fade-right">
+                                        <div class="banner_text1">Building Careers.  </div>
+                                        <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                        <div class="banner_link width100">
+                                            <a target="_blank" href="">View More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section>
+
+
+
+
+            <div class="middle_section_box width100">
+                <!-- Highlight part -->
+
+                <div class="width100 why_section pt-5 pb-5">
+                    <div class="container">
+                        <div class="width100">
+                            <div class="center_heading">
+                                Why Pune Cambridge
+                                <div class="center_head_img"></div>
+                            </div>
+                            <div class="width100">
+                                <div class="">
+                                    <div class="row">
+
+                                        <div class="col-lg-12 text_14grey text-center">
+                                            PCIMCA, Pune is Recognised by AICTE, Approved by DTE,
+                                            Maharashtra & Affiliated to Savitribai Phule Pune University (SPPU) starting
+                                            in 2023,
+                                            Pune is one of the premier B-School hub in India. PCIMCA Pune is recognized
+                                            for its excellence
+                                            in academics and its valuable contributions to industry, society and
+                                            students.
+                                            Our prestigious MBA & MCA college offers a transformative learning
+                                            experience,
+                                            equipping aspiring business leaders with cutting-edge skills in management,
+                                            strategy,
+                                            and innovation. Our faculty comprises industry experts who nurture students'
+                                            entrepreneurial
+                                            spirit, preparing them to excel in today's dynamic business landscape.
+                                            PCIMCA emphasize a holistic
+                                            approach to education, encouraging students to hone their critical thinking,
+                                            communication, and
+                                            leadership skills.
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="width100 pt-5">
+
+
+
+                                <!-- why pcimca flip section -->
+                                <script>
+                                    function myFunction_flip1() {
+                        var x = document.getElementById("flip_1");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+
+                    function myFunction_flip2() {
+                        var x = document.getElementById("flip_2");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+
+                    function myFunction_flip3() {
+                        var x = document.getElementById("flip_3");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+
+                    function myFunction_flip4() {
+                        var x = document.getElementById("flip_4");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+
+                    function myFunction_flip5() {
+                        var x = document.getElementById("flip_5");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+
+                    function myFunction_flip6() {
+                        var x = document.getElementById("flip_6");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+
+                    function myFunction_flip7() {
+                        var x = document.getElementById("flip_7");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+
+                    function myFunction_flip8() {
+                        var x = document.getElementById("flip_8");
+                        if (x.className === "why_list_inner") {
+                            x.className += " flip_1_open";
+                        } else {
+                            x.className = "why_list_inner";
+                        }
+                    }
+                                </script>
+
+                                <div class="why_list">
+                                    <div id="flip_1" class="why_list_inner">
+                                        <div class="whylist_flip" onclick="myFunction_flip1()">
+                                            <div class="whylist_img"><span
+                                                    style="background-image: url(assets/images/Ranked_in_Band.png);"></span>
+                                            </div>
+                                            <div class="whylist_heading">
+                                                Campus<br><span style="font-size:24px;color: #D15D0E">EXCELLENT
+                                                </span><br>
+                                                for learning
+                                            </div>
+                                            <div class="whylist_content"></div>
+                                        </div>
+                                        <div class="whylist_flip_back" onclick="myFunction_flip1()"
+                                            style="padding: 60px 20px 20px 20px;">
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Quaerat officiis error cum cumque dignissimos, reiciendis adipisci nulla
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="why_list">
+                                    <div id="flip_2" class="why_list_inner">
+                                        <div class="whylist_flip" onclick="myFunction_flip2()">
+                                            <div class="whylist_img"><span
+                                                    style="background-image: url(assets/images/Received_5_Star_Rating.png);"></span>
+                                            </div>
+                                            <div class="whylist_heading">
+                                                Parents<br>
+                                                5 Star Rating<Br>
+                                                ⭐ ⭐ ⭐ ⭐ ⭐
+                                            </div>
+
+                                        </div>
+                                        <div class="whylist_flip_back" onclick="myFunction_flip2()"
+                                            style="padding: 50px 20px 20px 20px;">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis error
+                                            perspiciatis aspernatur,
+                                            ex labore animi commodi tempore eius aliquid?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="why_list">
+                                    <div id="flip_3" class="why_list_inner">
+                                        <div class="whylist_flip" onclick="myFunction_flip3()">
+                                            <div class="whylist_img"><span
+                                                    style="background-image: url(assets/images/Best_University.png);"></span>
+                                            </div>
+                                            <div class="whylist_heading">
+                                                Under <br>
+                                                <span style="font-size:24px;color: #D15D0E">Pune University</span><br>
+                                                Top University
+                                            </div>
+
+                                        </div>
+                                        <div class="whylist_flip_back" onclick="myFunction_flip3()"
+                                            style="padding: 55px 20px 20px 20px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi
+                                            blanditiis dolor,
+                                            Voluptatibus, et nulla eum enim inventore aliquid?
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="why_list">
+                                    <div id="flip_3" class="why_list_inner">
+                                        <div class="whylist_flip" onclick="myFunction_flip3()">
+                                            <div class="whylist_img"><span
+                                                    style="background-image: url(assets/images/Future_Skills_Excellence.png);"></span>
+                                            </div>
+                                            <div class="whylist_heading">
+                                                Under <br>
+                                                <span style="font-size:24px;color: #D15D0E">Excellence</span><br>
+                                                Top University
+                                            </div>
+
+                                        </div>
+                                        <div class="whylist_flip_back" onclick="myFunction_flip3()"
+                                            style="padding: 55px 20px 20px 20px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi
+                                            blanditiis dolor,
+                                            Voluptatibus, et nulla eum enim inventore aliquid?
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="width100 program_offered_mainbox pt-5 pb-5">
+                    <div class="container">
+                        <div class="width100">
+                            <div class="center_heading" style="color: #fff;">
+                                Programs Offered
+                                <div class="center_head_img"></div>
+                            </div>
+                        </div>
+                        <div class="width100" style="display: flex; justify-content: space-between;">
+                            <div class="programs_list" data-aos="zoom-in">
+                                <div class="programs_list_inner">
+                                    <div class="programs_heading width100">
+                                        <div class="programs_icon management_icon"></div>
+                                        <div class="programs_head">PG & UG MANAGEMENT</div>
+                                    </div>
+                                    <div class="width100">
+                                        <div class="programs_left">
+                                            <ul>
+                                                <li>BBA</li>
+                                            </ul>
+                                            <br><br><br><br><br>
+                                        </div>
+                                        <div class="programs_left">
+                                            <ul>
+                                                <li>MBA</li>
+                                            </ul>
+                                        </div>
+                                        <div class="width100 pt-3">
+                                            <div class="row">
+                                                <div class="col-lg-1"></div>
+                                                <div class="col-lg-10 text-center">
+                                                    <a target="_blank" href="" class="check_eli_btn">Apply Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="programs_over_bg">&nbsp;</div>
+                                </div>
+                            </div>
+
+                            <div class="programs_list" data-aos="zoom-in">
+                                <div class="programs_list_inner">
+                                    <div class="programs_heading width100">
+                                        <div class="programs_icon fine_icon"></div>
+                                        <div class="programs_head" style="margin: 0px 0px 0px 0px;font-size: 18px;">PG &
+                                            UG SCIENCE</div>
+                                    </div>
+                                    <div class="width100">
+                                        <div class="programs_left">
+                                            <ul>
+                                                <li>BCA</li>
+                                            </ul>
+                                            <br><br><br><br><br>
+                                        </div>
+                                        <div class="programs_left">
+                                            <ul>
+                                                <li>MCA</li>
+                                            </ul>
+                                        </div>
+                                        <div class="width100 pt-3">
+                                            <div class="row">
+                                                <div class="col-lg-1"></div>
+                                                <div class="col-lg-10 text-center">
+                                                    <a href="" target="_blank" class="check_eli_btn">Apply Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="programs_over_bg">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="width100 impeccable_mainbox pt-5 pb-3 mb-5">
+                    <div class="container">
+                        <div class="width100">
+                            <div class="center_heading">
+                                PLACEMENTS
+                                <div class="center_head_img"></div>
+                            </div>
+                        </div>
+                        <div class="width100">
+                            <div class="pb-3">
+                                <div class="row">
+
+                                    <div class="col-lg-12 text_14grey text-center">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nulla, architecto
+                                        neque quibusdam incidunt alias,
+                                        nobis vel illo asperiores consequuntur debitis id. At ut architecto sapiente
+                                        magni. Debitis, temporibus labore!
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, a nemo
+                                        laboriosam mollitia, in ipsum quis,
+                                        officia quo odit molestiae earum atque ut soluta ratione harum amet ab nesciunt
+                                        animi! Lorem ipsum dolor sit
+                                        amet consectetur, adipisicing elit. Magni, nam voluptates facere eos, dolorem,
+                                        sunt officia minima porro
+                                        ea consequatur quae earum odio accusamus deserunt. Possimus expedita quidem vero
+                                        earum?
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="width100 pb-4">
+                            <div class="impe_two_box">
+                                <div class="impe_two_inner">
+                                    <div class="impe_img"><img src="assets/images/placement_icon.png"></div>
+                                    <div class="impe_rightbox">
+                                        <div class="width100 impe_text1">
+                                            <span data-max="100">+ </span>
+
+
+                                        </div>
+
+                                        <div class="width100 impe_text2">Job Offers</div>
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="impe_two_box">
+                                <div class="impe_two_inner" style="float: right;">
+                                    <div class="impe_img"><img src="assets/images/milestore_icon.png"></div>
+                                    <div class="impe_rightbox">
+                                        <div class="width100 impe_text1">
+
+                                            <!--<span data-max="27.5">+ LPA </span>-->
+                                            <span data-max="10">+ LPA </span>
+
+
+                                        </div>
+                                        <div class="width100 impe_text2">Highest Package</div>
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="impe_two_box">
+                                <div class="impe_two_inner" style="float: right;">
+                                    <div class="impe_img"><img src="assets/images/intership_icon.png"></div>
+                                    <div class="impe_rightbox">
+                                        <div class="width100 impe_text1">
+                                            <span data-max="100">+ </span>
+
+                                        </div>
+                                        <div class="width100 impe_text2">Internship Offers</div>
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="impe_two_box">
+                                <div class="impe_two_inner" style="float: right;">
+                                    <div class="impe_img"><img src="assets/images/recruiters_icon.png"></div>
+                                    <div class="impe_rightbox">
+                                        <div class="width100 impe_text1">
+                                            <span data-max="100">+ </span>
+
+
+                                        </div>
+
+                                        <div class="width100 impe_text2">Recruiters</div>
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="top" class="width100 impe_slider_box">
+                            <div class="owl-carousel_impeccable">
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275373.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275319.jpg">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275272.jpg">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275232.jpg">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275189.jpg">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275147.jpg">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275118.jpg">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275075.jpg">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652274973.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652274912.jpg">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+@endsection
