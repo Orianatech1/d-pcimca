@@ -323,12 +323,45 @@
 
 
         <style>
+             /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .enquiry-form {
+                width: 250px;
+
+            }
+
+            .form-header h2 {
+                font-size: 1.3em;
+            }
+
+            form button {
+                font-size: 14px;
+            }
+
+            .open-btn {
+                padding: 12px 25px;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .enquiry-form {
+                width: 100%;
+
+            }
+
+            .open-btn {
+                padding: 10px 20px;
+                font-size: 12px;
+                right: -50px;
+            }
+        }
             .enquiry-form {
                  position: fixed;
                  right: -300px;
                  top: 30%;
                  width: 300px;
-                 height: 70%;
+                 min-height: 70%
                  background-color: #ffdd1f;
                  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
                  padding: 15px;
@@ -413,6 +446,8 @@
              .open-btn.visible {
                  display: block; /* Make visible when needed */
              }
+
+
          </style>
           <script>
             document.addEventListener('DOMContentLoaded', function () {
@@ -445,7 +480,7 @@
             });
         </script>
 
-<div class="enquiry-form" id="enquiryForm">
+<div class="enquiry-form" id="enquiryForm" style="background-color: rgb(235, 191, 17)">
 <div class="form-header">
 <h2>Contact Us</h2>
 <span class="close-btn" id="closeBtn">&times;</span>
