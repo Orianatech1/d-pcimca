@@ -483,7 +483,8 @@
 <h2>Contact Us</h2>
 <span class="close-btn" id="closeBtn">&times;</span>
 </div>
-<form method="post" name="pcimca_form" action="senddata.php">
+
+<form method="post" name="pcimca_form" action="https://script.google.com/macros/s/AKfycbzD_sLKIcd9ok9v_6QbW2u0nhYNHgpow6fX-o5n2fvvjnBP_cG6vt0riPhs7S4yqVV_eQ/exec">
 
 <input name="form_name" class="form-control" type="text" required="" placeholder="Enter Name" aria-required="true">
 
@@ -514,6 +515,20 @@
 <br>
 <button type="submit" data-loading-text="Please wait...">Submit</button>
 </form>
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzD_sLKIcd9ok9v_6QbW2u0nhYNHgpow6fX-o5n2fvvjnBP_cG6vt0riPhs7S4yqVV_eQ/exec'
+
+    const form = document.forms['pcimca_form']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thank you! your form is submitted successfully." ))
+      .then(() => { window.location.reload(); })
+      .catch(error => console.error('Error!', error.message))
+    })
+    </script>
 </div>
 
 <button class="open-btn" id="openBtn" style="font-size: 15px">Contact Form</button>
