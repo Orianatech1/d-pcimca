@@ -71,7 +71,7 @@
                                             <div class="col-lg-5">
 
                                                 <div class="width100 mb-3"><img class="img-fluid"
-                                                        src="assets/images/a1-01.png"
+                                                        src="assets/images/CT Kunjir.png"
                                                         style="border-radius: 10px; border: 13px solid #790149; border-radius: 4%; ">
                                                 </div>
 

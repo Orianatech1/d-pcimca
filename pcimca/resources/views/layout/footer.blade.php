@@ -93,8 +93,8 @@
                     <div class="footer_content">
                         <div class="foorer_head">Admissions</div>
                         <ul>
-                            <li><a href="#">MBA</a></li>
-                            <li><a href="#">MCA</a></li>
+                            <li><a href="{{ ('/MBA') }}">MBA</a></li>
+                            <li><a href="{{ ('/MCA') }}">MCA</a></li>
                             <li><a href="#">BCA</a></li>
                             <li><a href="#">BBA</a></li>
                         </ul>

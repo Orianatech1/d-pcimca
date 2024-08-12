@@ -104,7 +104,7 @@
                     <div class="width100" style="margin-top: -40px">
                         <div>
 
-                            <a href="{{ ('/') }}"> <img src="/assets/images/Header.png" style="max-width: 100%"></a>
+                            <img src="/assets/images/Header.png" style="max-width: 100%">
                         </div>
 
 
@@ -114,16 +114,12 @@
                             <h6 align="left">Approved by AICTE, Recognised by DTE & Affiliated to Savitribai Phule Pune
                                 University</h6>
                         </div> --}}
-                        <div class="top_right" style="margin-top: -50px">
+                        <div class="top_right" style="margin-top: -15px">
                             <div class="width100 top_box2">
                                 <div class="top_btn_box">
 
                                     <a href="https://staff.pcimca.in" target="_blank">Login</a>
-                                    <div class="careers_dropdown_box">
-
-
-                                    </div>
-
+                                    <div class="careers_dropdown_box"></div>
                                 </div>
                                 <div id="career_topmenu" class="career_topmenu">
                                     <a href="javascript:void(0);" class="carrer_menu_toggle menu_toggle"
@@ -222,18 +218,17 @@
 
 
 
-                            <div class="width100 top_box3" data-aos="fade-right" style="margin-top: -40px">
+                            <div class="width100 top_box3" data-aos="fade-right" style="margin-top: -20px;">
 
                                 <div class="top_search_box">
                                     <div class="top_social_icon">
 
-                                        <a target="_blank" href="https://facebook.com"><span class="linkedin_icon"></span></a>
+                                        <a target="_blank" href="https://www.linkedin.com/company/pcimca/"><span class="linkedin_icon"></span></a>
                                         <a target="_blank" href="https://instagram.com"><span class="instagram_icon"></span></a>
 
                                         <a target="_blank" href="https://youtube.com"><span class="youtube_icon"></span></a>
                                     </div>
-                                    <input type="input" placeholder="Search Here...">
-                                    <input type="submit" class="submit">
+
                                 </div>
 
                             </div>

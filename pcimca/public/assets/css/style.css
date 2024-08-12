@@ -158,7 +158,7 @@ a:hover {
 
 .banner_section {
 
-    /* background-image: url(../images/university_img.png); */
+    background-image: url(../images/university_img.png);
 
     background-image: linear-gradient(220deg, #811859 0%, #ffcc01 80%);
 
@@ -228,7 +228,7 @@ a:hover {
 
     background-size: contain;
 
-    min-height: 550px;
+    min-height: 500px;
 
 }
 
@@ -369,7 +369,7 @@ a:hover {
 
     position: absolute;
 
-    margin: 100px 0 0 30px;
+    margin: 50px 0 0 30px;
 
 }
 
@@ -395,7 +395,7 @@ a:hover {
 
 .owl-carousel_homebanner .owl-dots .active span {
 
-    box-shadow: 0px 0px 0px 10px #790149;
+    box-shadow: px 0px 0px 10px #790149;
 
 }
 
@@ -919,7 +919,7 @@ a:hover {
 
     position: absolute;
 
-    margin: 100px 0 0 30px;
+    margin: 200px 0 0 30px;
 
 }
 
@@ -1267,7 +1267,7 @@ a:hover {
 
     background-color: #fff;
 
-    margin: 10px 0 10px 0;
+    margin: 15px 0 15px 0;
 
 }
 
@@ -1275,7 +1275,7 @@ a:hover {
 
 .owl-carousel_homebanner .owl-dots .active span {
 
-    box-shadow: 0px 0px 0px 10px #790149;
+    box-shadow: 0px 0px 0px 20px #790149;
 
 }
 
@@ -9457,16 +9457,6 @@ table tr a:hover {
 
     }
 
-    .banner_img_box {
-
-        background-image: none !important;
-
-        min-height: 260px;
-
-        padding: 0 0 30px 0;
-
-    }
-
     /* ------VISITOR-CSS-START -------*/
 
     .visitor_counter_box {
@@ -10131,7 +10121,7 @@ table tr a:hover {
 
     .owl-carousel_homebanner .owl-dots {
 
-        margin: 50px 0 0 30px;
+        margin: 30px 0 0 30px;
 
     }
 

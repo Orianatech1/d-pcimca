@@ -61,7 +61,7 @@
                                             <div class="col-lg-5">
 
                                                 <div class="width100 mb-3"><img class="img-fluid" style="max-width: 350px"
-                                                        src="assets/images/faculty-of-art.jpg"></div>
+                                                        src="assets/images/MBA-icon.jpg"></div>
 
                                             </div>
 
@@ -135,7 +135,7 @@
                                             <div class="col-lg-5">
 
                                                 <div class="width100 mb-3"><img class="img-fluid" style="max-width: 350px"
-                                                        src="assets/images/I1.jpg"></div>
+                                                        src="assets/images/MCA-icon.jpg"></div>
 
                                             </div>
 

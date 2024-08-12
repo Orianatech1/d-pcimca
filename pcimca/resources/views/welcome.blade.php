@@ -149,13 +149,11 @@
             <div class="item">
                 <div class="container">
                     <div class="banner_section width100">
-                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/4.png);">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/3.png);">
                             <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text1">Embark on the </div>
-                                <div class="banner_text2">Journey to Excellence Today...</div>
-                                <div class="banner_link width100">
-                                    <a target="_blank" href="">View More</a>
-                                </div>
+                                <div class="banner_text2">Shape the Future of Business and Technology </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -166,91 +164,18 @@
                     <div class="banner_section width100">
                         <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/1.png);">
                             <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text1">Shaping Tomorrow's World </div>
-                                <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                <div class="banner_link width100">
-                                    <a target="_blank" href="">View More</a>
-                                </div>
+                                <div class="banner_text2">Build a Strong Foundation in Management and Entrepreneurship</div>
                             </div>
                         </div>
-
                     </div>
-                </div>
+   </div>
             </div>
             <div class="item">
                 <div class="container">
                     <div class="banner_section width100">
                         <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/2.png);">
                             <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text1">Building Careers. </div>
-                                <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                <div class="banner_link width100">
-                                    <a target="_blank" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="container">
-                    <div class="banner_section width100">
-                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/3.png);">
-                            <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text1">Building Careers. </div>
-                                <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                <div class="banner_link width100">
-                                    <a target="_blank" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="container">
-                    <div class="banner_section width100">
-                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/7.png);">
-                            <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text1">Building Careers. </div>
-                                <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                <div class="banner_link width100">
-                                    <a target="_blank" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="container">
-                    <div class="banner_section width100">
-                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/5.png);">
-                            <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text1">Building Careers. </div>
-                                <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                <div class="banner_link width100">
-                                    <a target="_blank" href="">View More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="container">
-                    <div class="banner_section width100">
-                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/6.png);">
-                            <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text1">Building Careers. </div>
-                                <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                <div class="banner_link width100">
-                                    <a target="_blank" href="">View More</a>
-                                </div>
+                                <div class="banner_text2"> Prepare for a Dynamic Career in IT and Computing</div>
                             </div>
                         </div>
                     </div>
@@ -396,8 +321,7 @@
                                         </div>
                                         <div class="whylist_flip_back" onclick="myFunction_flip1()"
                                             style="padding: 60px 20px 20px 20px;">
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                            Quaerat officiis error cum cumque dignissimos, reiciendis adipisci nulla
+                                            Ecellent Campus
 
                                         </div>
                                     </div>
@@ -417,9 +341,7 @@
                                         </div>
                                         <div class="whylist_flip_back" onclick="myFunction_flip2()"
                                             style="padding: 50px 20px 20px 20px;">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis error
-                                            perspiciatis aspernatur,
-                                            ex labore animi commodi tempore eius aliquid?
+                                            5 Star Rating
                                         </div>
                                     </div>
                                 </div>
@@ -431,16 +353,14 @@
                                             </div>
                                             <div class="whylist_heading">
                                                 Under <br>
-                                                <span style="font-size:24px;color: #D15D0E">Pune University</span><br>
+                                                <span style="font-size:24px;color: #D15D0E">Savitribai Phule University</span><br>
                                                 Top University
                                             </div>
 
                                         </div>
                                         <div class="whylist_flip_back" onclick="myFunction_flip3()"
                                             style="padding: 55px 20px 20px 20px;">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi
-                                            blanditiis dolor,
-                                            Voluptatibus, et nulla eum enim inventore aliquid?
+                                            Top University
                                         </div>
                                     </div>
                                 </div>
@@ -461,9 +381,7 @@
                                         </div>
                                         <div class="whylist_flip_back" onclick="myFunction_flip3()"
                                             style="padding: 55px 20px 20px 20px;">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi
-                                            blanditiis dolor,
-                                            Voluptatibus, et nulla eum enim inventore aliquid?
+                                           Top University
                                         </div>
                                     </div>
                                 </div>
@@ -484,7 +402,7 @@
                                 <div class="programs_list_inner">
                                     <div class="programs_heading width100">
                                         <div class="programs_icon management_icon"></div>
-                                        <div class="programs_head">PG & UG MANAGEMENT</div>
+                                        <div class="programs_head">UG - PROGRAMES</div>
                                     </div>
                                     <div class="width100">
                                         <div class="programs_left">
@@ -495,14 +413,14 @@
                                         </div>
                                         <div class="programs_left">
                                             <ul>
-                                                <li>MBA</li>
+                                                <li>BCA</li>
                                             </ul>
                                         </div>
                                         <div class="width100 pt-3">
                                             <div class="row">
                                                 <div class="col-lg-1"></div>
                                                 <div class="col-lg-10 text-center">
-                                                    <a target="_blank" href="{{ ('/MBA') }}" class="check_eli_btn">Apply
+                                                    <a target="_blank" href="{{ ('/') }}" class="check_eli_btn">Apply
                                                         Now</a>
                                                 </div>
                                             </div>
@@ -516,13 +434,13 @@
                                 <div class="programs_list_inner">
                                     <div class="programs_heading width100">
                                         <div class="programs_icon fine_icon"></div>
-                                        <div class="programs_head" style="margin: 0px 0px 0px 0px;font-size: 18px;">PG &
-                                            UG SCIENCE</div>
+                                        <div class="programs_head">PG -
+                                            PROGRAMES</div>
                                     </div>
                                     <div class="width100">
                                         <div class="programs_left">
                                             <ul>
-                                                <li>BCA</li>
+                                                <li>MBA</li>
                                             </ul>
                                             <br><br><br><br><br>
                                         </div>
@@ -552,7 +470,7 @@
                     <div class="container">
                         <div class="width100">
                             <div class="center_heading">
-                                Welcome to PCIMCA Training and Placement Cell – Pathway to Success!
+                                Our Training and  Recruitment Partners
                                 <div class="center_head_img"></div>
                             </div>
                         </div>
@@ -593,45 +511,7 @@
                                         the full potential.
 
                                     </div>
-                                    <div class="placement">
-                                        <style>
-                                            .placement {
-                                                font-size: 14px;
-                                                font-weight: 500;
-                                                align-content: center;
-                                                padding-top: 5px;
-                                                display: flex;
-                                                margin-left: 50px;
 
-                                            }
-                                        </style>
-                                        <ul style="list-style-type:square;">
-                                            <li>To assist students to develop/clarify their academic and career
-                                                interests, and their short and long-term goals through individual
-                                                counseling and group sessions.</li>
-                                            <li>
-                                                To prepare students for campus recruitment arranging training in
-                                                Aptitude tests, Group discussions, preparing for Technical and HR
-                                                interviews through professional trainers.
-                                            </li>
-                                            <li>To promote career counseling by organizing guest speakers viz. senior
-                                                corporate personnel and most importantly by the immediately placed
-                                                senior students.
-                                            </li>
-                                            <li>
-                                                To assist students in obtaining placement in reputed companies.
-
-                                            </li>
-                                            <li>To organize on-campus off-campus interviews for final year students and
-                                                internship (training) for students with industries and reputed
-                                                institutes
-                                            </li>
-                                            <li>
-                                                To maintain regular interaction with industry through Seminars-
-                                                workshops, Guest Lectures and Conferences etc.
-                                            </li>
-                                        </ul>
-                                    </div>
 
                                 </div>
                             </div>
