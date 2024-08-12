@@ -101,17 +101,20 @@
         <div class="width100 header_background">
             <div class="width1240">
                 <div class="width100 top_box1">
-                    <div class="width100">
-                        <div class="Logo" data-aos="fade-down">
-                            <a href="{{ ('/') }}"> <img src="/assets/images/LOGOFINAL.png" id="logoimg"></a>
+                    <div class="width100" style="margin-top: -40px">
+                        <div>
+
+                            <a href="{{ ('/') }}"> <img src="/assets/images/Header.png" style="max-width: 100%"></a>
                         </div>
-                        <div class="logo_text" style="color:white; margin-left: 12px;">
+
+
+                        {{-- <div class="logo_text" style="color:white; margin-left: 12px;">
                             <h6 align="left">Purandhar Technical Education Society’s.</h6>
                             <h5 align="left">PUNE CAMBRIDGE INSTITUTE OF MANAGEMENT AND COMPUTER APPLICATION</h5>
                             <h6 align="left">Approved by AICTE, Recognised by DTE & Affiliated to Savitribai Phule Pune
                                 University</h6>
-                        </div>
-                        <div class="top_right">
+                        </div> --}}
+                        <div class="top_right" style="margin-top: -50px">
                             <div class="width100 top_box2">
                                 <div class="top_btn_box">
 
@@ -219,12 +222,12 @@
 
 
 
-                            <div class="width100 top_box3" data-aos="fade-right">
+                            <div class="width100 top_box3" data-aos="fade-right" style="margin-top: -40px">
 
                                 <div class="top_search_box">
                                     <div class="top_social_icon">
 
-                                        <a target="_blank" href="https://facebook.com"><span class="facebook_icon"></span></a>
+                                        <a target="_blank" href="https://facebook.com"><span class="linkedin_icon"></span></a>
                                         <a target="_blank" href="https://instagram.com"><span class="instagram_icon"></span></a>
 
                                         <a target="_blank" href="https://youtube.com"><span class="youtube_icon"></span></a>
@@ -485,7 +488,7 @@
 <h2>Contact Us</h2>
 <span class="close-btn" id="closeBtn">&times;</span>
 </div>
-<form method="post" action="senddata.php">
+<form method="post" name="pcimca_form" action="senddata.php">
 
 <input name="form_name" class="form-control" type="text" required="" placeholder="Enter Name" aria-required="true">
 
@@ -496,7 +499,7 @@
 <option selected>Select State</option>
 <option value="Maharashtra">Maharashtra</option>
 <option value="Others">Others</option>
-<!--<option value="3">Three</option>-->
+
 </select>
 <br>
 <select name="city" class="form-select form-control required" aria-label="Default select example">
@@ -510,7 +513,8 @@
 <option  selected class="">Select Course</option>
 <option value="MBA">MBA</option>
 <option value="MCA">MCA</option>
-<!-- <option value="3">Three</option> -->
+<option value="BBA">BBA</option>
+<option value="BCA">BCA</option>
 </select>
 <br>
 <button type="submit" data-loading-text="Please wait...">Submit</button>

@@ -2,218 +2,262 @@
 @section('main-content')
 
 
-        <div class="width100">
-            <style>
-                .bannerForm .row {
-                    background: #ffcc01;
-                    padding: 10px 10px;
-                    border-radius: 20px;
-                }
+<div class="width100">
+    <style>
+        .bannerForm .row {
+            background: #ffcc01;
+            padding: 10px 10px;
+            border-radius: 20px;
+        }
 
-                .bannerForm h3 {
-                    text-align: center;
-                    font-size: 1.5em;
-                    color: #fff;
-                    text-transform: uppercase;
-                    padding-bottom: 10px;
-                }
+        .bannerForm h3 {
+            text-align: center;
+            font-size: 1.5em;
+            color: #fff;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+        }
 
-                .bannerForm {
-                    position: absolute;
-                    top: 5%;
-                    right: 5%;
-                    z-index: 2;
-                }
+        .bannerForm {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            z-index: 2;
+        }
 
-                .bannerForm input[type="text"] {
-                    width: 100%;
-                    padding: 2px;
-                    outline: 0px;
-                    border: 0px;
-                    margin-bottom: 2px;
-                    border-radius: 3px;
-                }
+        .bannerForm input[type="text"] {
+            width: 100%;
+            padding: 2px;
+            outline: 0px;
+            border: 0px;
+            margin-bottom: 2px;
+            border-radius: 3px;
+        }
 
-                .bannerForm input[type="submit"] {
-                    width: 100%;
-                    padding: 2px;
-                    outline: 0px;
-                    border: 0px;
-                    background: #d2973f;
-                    color: #fff;
-                    border-radius: 3px;
-                }
+        .bannerForm input[type="submit"] {
+            width: 100%;
+            padding: 2px;
+            outline: 0px;
+            border: 0px;
+            background: #d2973f;
+            color: #fff;
+            border-radius: 3px;
+        }
 
-                .bannerForm select {
-                    width: 100%;
-                    padding: 2px;
-                    outline: 0px;
-                    border: 0px;
-                    height: 20px;
-                    margin-bottom: 2px;
-                    border-radius: 3px;
-                }
+        .bannerForm select {
+            width: 100%;
+            padding: 2px;
+            outline: 0px;
+            border: 0px;
+            height: 20px;
+            margin-bottom: 2px;
+            border-radius: 3px;
+        }
 
-                .title-effect .bar {
-                    display: none;
-                }
+        .title-effect .bar {
+            display: none;
+        }
 
-                .bannerForm input[type="tel"] {
-                    width: 100%;
-                    padding: 2px;
-                    outline: 0px;
-                    border: 0px;
-                    margin-bottom: 2px;
-                    border-radius: 3px;
-                }
+        .bannerForm input[type="tel"] {
+            width: 100%;
+            padding: 2px;
+            outline: 0px;
+            border: 0px;
+            margin-bottom: 2px;
+            border-radius: 3px;
+        }
 
-                .bannerForm input[type="email"] {
-                    width: 100%;
-                    padding: 2px;
-                    outline: 0px;
-                    border: 0px;
-                    margin-bottom: 2px;
-                    border-radius: 3px;
-                }
+        .bannerForm input[type="email"] {
+            width: 100%;
+            padding: 2px;
+            outline: 0px;
+            border: 0px;
+            margin-bottom: 2px;
+            border-radius: 3px;
+        }
 
-                .bannerFormCapcha {
-                    padding: 0px;
-                    color: #fff;
-                    text-align: center;
-                    font-size: 16px;
-                    display: flex;
-                }
+        .bannerFormCapcha {
+            padding: 0px;
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+            display: flex;
+        }
 
-                .bannerFormCapcha span {
-                    line-height: 42px;
-                }
+        .bannerFormCapcha span {
+            line-height: 42px;
+        }
 
-                .plus-captcha {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
+        .plus-captcha {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-                .bannerFormCapcha input[type="text"] {
-                    width: 100%;
-                    padding: 2px;
-                    outline: 0px;
-                    border: 0px;
-                    margin-bottom: 2px;
-                    float: right;
-                    border-radius: 3px;
-                }
+        .bannerFormCapcha input[type="text"] {
+            width: 100%;
+            padding: 2px;
+            outline: 0px;
+            border: 0px;
+            margin-bottom: 2px;
+            float: right;
+            border-radius: 3px;
+        }
 
-                #particles-js {
-                    width: 100%;
-                    display: block;
-                    z-index: 0;
+        #particles-js {
+            width: 100%;
+            display: block;
+            z-index: 0;
 
-                    position: relative;
-                }
+            position: relative;
+        }
 
-                #particles-js.fixed {
-                    position: fixed;
-                    top: 0;
-                }
+        #particles-js.fixed {
+            position: fixed;
+            top: 0;
+        }
 
-                .particles-js-canvas-el {
-                    position: absolute;
-                    top: 0;
-                }
+        .particles-js-canvas-el {
+            position: absolute;
+            top: 0;
+        }
 
-                #particles-js .carousel-item img {
-                    height: 90vh;
-                }
+        #particles-js .carousel-item img {
+            height: 90vh;
+        }
 
-                #particles-js .carousel-caption {
-                    top: 30%;
-                    width: 50%;
-                    left: 5%;
-                    text-align: left;
-                }
+        #particles-js .carousel-caption {
+            top: 30%;
+            width: 50%;
+            left: 5%;
+            text-align: left;
+        }
 
-                #particles-js .carousel-caption h2 {
-                    font-size: 4em;
-                    color: #fff;
-                    text-shadow: 1px 1px 1px #000;
-                }
+        #particles-js .carousel-caption h2 {
+            font-size: 4em;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+        }
 
-                .instant .modal-dialog {
-                    max-width: 800px;
-                }
-            </style>
+        .instant .modal-dialog {
+            max-width: 800px;
+        }
+    </style>
 
-            <section id="particles-js">
-                <div class="owl-carousel_homebanner">
-                    <div class="item">
-                        <div class="container">
-                            <div class="banner_section width100">
-                                <div class="width100 banner_img_box"
-                                    style="background-image: url(assets/images/slider/2.png);">
-                                    <div class="banner_leftbox" data-aos="fade-right">
-                                        <div class="banner_text1">Embark on the </div>
-                                        <div class="banner_text2">Journey to Excellence Today...</div>
-                                        <div class="banner_link width100">
-                                            <a target="_blank" href="">View More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="container">
-                            <div class="banner_section width100">
-                                <div class="width100 banner_img_box"
-                                    style="background-image: url(assets/images/slider/3.png);">
-                                    <div class="banner_leftbox" data-aos="fade-right">
-                                        <div class="banner_text1">Shaping Tomorrow's World </div>
-                                        <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                        <div class="banner_link width100">
-                                            <a target="_blank" href="">View More</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="container">
-                            <div class="banner_section width100">
-                                <div class="width100 banner_img_box"
-                                    style="background-image: url(assets/images/slider/7.png);">
-                                    <div class="banner_leftbox" data-aos="fade-right">
-                                        <div class="banner_text1">Building Careers. </div>
-                                        <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                        <div class="banner_link width100">
-                                            <a target="_blank" href="">View More</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="container">
-                            <div class="banner_section width100">
-                                <div class="width100 banner_img_box"
-                                    style="background-image: url(assets/images/slider/4.png);">
-                                    <div class="banner_leftbox" data-aos="fade-right">
-                                        <div class="banner_text1">Building Careers.  </div>
-                                        <div class="banner_text2">Through Innovation and Inspiration.</div>
-                                        <div class="banner_link width100">
-                                            <a target="_blank" href="">View More</a>
-                                        </div>
-                                    </div>
+    <section id="particles-js">
+        <div class="owl-carousel_homebanner">
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/4.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Embark on the </div>
+                                <div class="banner_text2">Journey to Excellence Today...</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <section>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/1.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Shaping Tomorrow's World </div>
+                                <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/2.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Building Careers. </div>
+                                <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/3.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Building Careers. </div>
+                                <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/7.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Building Careers. </div>
+                                <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/5.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Building Careers. </div>
+                                <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <div class="banner_section width100">
+                        <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/6.png);">
+                            <div class="banner_leftbox" data-aos="fade-right">
+                                <div class="banner_text1">Building Careers. </div>
+                                <div class="banner_text2">Through Innovation and Inspiration.</div>
+                                <div class="banner_link width100">
+                                    <a target="_blank" href="">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
 
 
 
@@ -458,7 +502,8 @@
                                             <div class="row">
                                                 <div class="col-lg-1"></div>
                                                 <div class="col-lg-10 text-center">
-                                                    <a target="_blank" href="" class="check_eli_btn">Apply Now</a>
+                                                    <a target="_blank" href="{{ ('/MBA') }}" class="check_eli_btn">Apply
+                                                        Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -490,7 +535,8 @@
                                             <div class="row">
                                                 <div class="col-lg-1"></div>
                                                 <div class="col-lg-10 text-center">
-                                                    <a href="" target="_blank" class="check_eli_btn">Apply Now</a>
+                                                    <a href="{{ ('/MCA') }}" target="_blank" class="check_eli_btn">Apply
+                                                        Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -506,7 +552,7 @@
                     <div class="container">
                         <div class="width100">
                             <div class="center_heading">
-                                PLACEMENTS
+                                Welcome to PCIMCA Training and Placement Cell – Pathway to Success!
                                 <div class="center_head_img"></div>
                             </div>
                         </div>
@@ -514,19 +560,77 @@
                             <div class="pb-3">
                                 <div class="row">
 
-                                    <div class="col-lg-12 text_14grey text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nulla, architecto
-                                        neque quibusdam incidunt alias,
-                                        nobis vel illo asperiores consequuntur debitis id. At ut architecto sapiente
-                                        magni. Debitis, temporibus labore!
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, a nemo
-                                        laboriosam mollitia, in ipsum quis,
-                                        officia quo odit molestiae earum atque ut soluta ratione harum amet ab nesciunt
-                                        animi! Lorem ipsum dolor sit
-                                        amet consectetur, adipisicing elit. Magni, nam voluptates facere eos, dolorem,
-                                        sunt officia minima porro
-                                        ea consequatur quae earum odio accusamus deserunt. Possimus expedita quidem vero
-                                        earum?
+                                    <div class="col-lg-12 text_14grey text-center" style="font-size: 16px;">
+                                        At Pune Cambridge Institute of Management & Computer Applications (PCIMCA), our
+                                        Placement Cell is dedicated to guiding towards a successful career through our
+                                        specialized training programs across MBA, MCA, BBA, and BCA courses. We ensure
+                                        that our students are not only academically proficient but also fully prepared
+                                        for the professional world.
+                                        <br>
+
+                                        <br>A cornerstone of our approach is <b><i>SkillSaturDose – The Pillar of
+                                                Future!</i></b>. This initiative provides crucial skill-building
+                                        sessions every Saturday, focusing on technical, soft, and hard skills essential
+                                        for career success. Through SkillSaturDose, students get benefits from
+                                        comprehensive training that includes aptitude development,<br> communication skills
+                                        enhancement, group discussions, and personal interview preparation.
+<br>
+                                        <br>In addition to SkillSaturDose, our Placement Cell enriches students'
+                                        learning experience by organizing guest lectures and expert talk sessions with
+                                        renowned HR professionals and <br>industry experts from leading companies. These
+                                        interactions provide valuable insights into industry trends and expectations,
+                                        helping the students to stay ahead in the competitive job market.
+<br>
+                                        <br>We also offer mock interviews, company-specific online tests, and
+                                        personalized career counseling to ensure that our students are well-equipped to
+                                        face industry challenges. By bridging the gap between academic learning and
+                                        real-world requirements, we support the students' transition from education to
+                                        employment with a robust foundation.
+                                        <br>
+
+                                        <br>Join us at PCIMCA and leverage our Placement Cell, SkillSaturDose
+                                        initiative, and expert-lead sessions to achieve career aspirations and unlock
+                                        the full potential.
+
+                                    </div>
+                                    <div class="placement">
+                                        <style>
+                                            .placement {
+                                                font-size: 14px;
+                                                font-weight: 500;
+                                                align-content: center;
+                                                padding-top: 5px;
+                                                display: flex;
+                                                margin-left: 50px;
+
+                                            }
+                                        </style>
+                                        <ul style="list-style-type:square;">
+                                            <li>To assist students to develop/clarify their academic and career
+                                                interests, and their short and long-term goals through individual
+                                                counseling and group sessions.</li>
+                                            <li>
+                                                To prepare students for campus recruitment arranging training in
+                                                Aptitude tests, Group discussions, preparing for Technical and HR
+                                                interviews through professional trainers.
+                                            </li>
+                                            <li>To promote career counseling by organizing guest speakers viz. senior
+                                                corporate personnel and most importantly by the immediately placed
+                                                senior students.
+                                            </li>
+                                            <li>
+                                                To assist students in obtaining placement in reputed companies.
+
+                                            </li>
+                                            <li>To organize on-campus off-campus interviews for final year students and
+                                                internship (training) for students with industries and reputed
+                                                institutes
+                                            </li>
+                                            <li>
+                                                To maintain regular interaction with industry through Seminars-
+                                                workshops, Guest Lectures and Conferences etc.
+                                            </li>
+                                        </ul>
                                     </div>
 
                                 </div>
@@ -538,14 +642,16 @@
                                     <div class="impe_img"><img src="assets/images/placement_icon.png"></div>
                                     <div class="impe_rightbox">
                                         <div class="width100 impe_text1">
-                                            <span data-max="100">+ </span>
+                                            <span data-max="100">15+ </span>
 
 
                                         </div>
 
                                         <div class="width100 impe_text2">Job Offers</div>
-                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the
+                                            printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                            text ever.
                                         </div>
                                     </div>
                                 </div>
@@ -557,13 +663,15 @@
                                         <div class="width100 impe_text1">
 
                                             <!--<span data-max="27.5">+ LPA </span>-->
-                                            <span data-max="10">+ LPA </span>
+                                            <span data-max="10">5+ LPA </span>
 
 
                                         </div>
                                         <div class="width100 impe_text2">Highest Package</div>
-                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the
+                                            printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                            text ever.
                                         </div>
                                     </div>
                                 </div>
@@ -573,12 +681,14 @@
                                     <div class="impe_img"><img src="assets/images/intership_icon.png"></div>
                                     <div class="impe_rightbox">
                                         <div class="width100 impe_text1">
-                                            <span data-max="100">+ </span>
+                                            <span data-max="100">25+ </span>
 
                                         </div>
                                         <div class="width100 impe_text2">Internship Offers</div>
-                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the
+                                            printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                            text ever.
                                         </div>
                                     </div>
                                 </div>
@@ -588,14 +698,16 @@
                                     <div class="impe_img"><img src="assets/images/recruiters_icon.png"></div>
                                     <div class="impe_rightbox">
                                         <div class="width100 impe_text1">
-                                            <span data-max="100">+ </span>
+                                            <span data-max="100">07+ </span>
 
 
                                         </div>
 
                                         <div class="width100 impe_text2">Recruiters</div>
-                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the printing and
-                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+                                        <div class="width100 impe_content">Lorem Ipsum is simply dummy text of the
+                                            printing and
+                                            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                            text ever.
                                         </div>
                                     </div>
                                 </div>
@@ -605,43 +717,133 @@
                         <div id="top" class="width100 impe_slider_box">
                             <div class="owl-carousel_impeccable">
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275373.png">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Academor.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275319.jpg">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/ACS.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275272.jpg">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/AFC.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275232.jpg">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/AIM.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275189.jpg">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Anonymous Workstation.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275147.jpg">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Brightlink.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275118.jpg">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/BTW.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652275075.jpg">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Digitau.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652274973.png">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Digiventry.png">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/1652274912.jpg">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Edustation.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Eduviz.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/eTeam.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Exacuer Global.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Exposys Data Labs.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/General Diagnostics.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Internshala.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Internz Valley.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/IRIS Polymers.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Jayraaj Multiservices.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Mahalaxmi AUTO.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Orianatech.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/PlanetSpark.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Prototech.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Rohan Automotive.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Shavsi Global Services.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Sparkwise Technology.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img
+                                            src="assets/images/recruiters/Suvidha Foundation.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Teachnook.png">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="impe_slide_whitebox"><img src="assets/images/recruiters/Wayspire.png">
                                     </div>
                                 </div>
 
@@ -658,4 +860,4 @@
 
 
 
-@endsection
+            @endsection

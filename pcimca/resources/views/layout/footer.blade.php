@@ -122,7 +122,7 @@
                                             href="https://www.google.com/maps/place/Pune+Cambridge+Public+School+%26+Jr.+College/@18.457131,73.843042,15z/data=!4m6!3m5!1s0x3bc2eacadb684465:0xacab8e77ca675a6c!8m2!3d18.4571314!4d73.8430417!16s%2Fg%2F11bzvtvlb6?hl=en&entry=ttu">
                                             <span style="color: white;">Sr. No -28/6, Police Chowki, behind Ambegaon
                                                 Pathar, Ambegaon Pathar,Ambegaon Budruk,<span
-                                                    style="color: #ffc109;"> Pune - 411046,</a>
+                                                    style="color: #ffc109;"> Pune - 411046</a>
                                     </p>
                                 </div>
                             </div>
