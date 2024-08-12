@@ -104,8 +104,9 @@
                     <div class="width100" style="margin-top: -40px">
                         <div>
 
-                            <img src="/assets/images/Header.png" style="max-width: 100%">
+                            <a href="{{ ('/') }}"><img src="/assets/images/Header.png" style="max-width: 100%"></a>
                         </div>
+
 
 
                         {{-- <div class="logo_text" style="color:white; margin-left: 12px;">
@@ -218,10 +219,13 @@
 
 
 
+
                             <div class="width100 top_box3" data-aos="fade-right" style="margin-top: -20px;">
+
 
                                 <div class="top_search_box">
                                     <div class="top_social_icon">
+
 
                                         <a target="_blank" href="https://www.linkedin.com/company/pcimca/"><span class="linkedin_icon"></span></a>
                                         <a target="_blank" href="https://instagram.com"><span class="instagram_icon"></span></a>
@@ -230,8 +234,22 @@
                                     </div>
 
                                 </div>
+                                <div class="dte">
+                                    <style>
+                                        .dte{
+                                            color: white;
+                                            font-size: 18px;
+                                            font-weight: 600;
+                                            margin-left: 30%;
 
+
+                                        }
+                                    </style>
+                                    <p>DTE CODE - 6992</p>
+
+                                </div>
                             </div>
+
                         </div>
 
 
@@ -318,140 +336,208 @@
         </div>
 
         <!--header end-->
-
-
         <style>
-             /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .enquiry-form {
-                width: 250px;
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .enquiry-form {
+                    width: 250px;
+                }
 
+                .form-header h2 {
+                    font-size: 1.3em;
+                }
+
+                form button {
+                    font-size: 14px;
+                }
+
+                .open-btn {
+                    padding: 12px 25px;
+                    font-size: 14px;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .enquiry-form {
+                    width: 100%;
+                }
+
+                .open-btn {
+                    padding: 10px 20px;
+                    font-size: 12px;
+                    right: -50px;
+                }
+            }
+
+            .enquiry-form {
+                position: fixed;
+                right: -300px;
+                top: 30%;
+                width: 300px;
+                min-height: 60%;
+                background-color: #ffdd1f;
+                box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+                padding: 15px;
+                box-sizing: border-box;
+                transition: right 0.3s ease-in-out;
+                z-index: 1000;
+            }
+
+            .enquiry-form.active {
+                right: 0;
+            }
+
+            .form-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
             }
 
             .form-header h2 {
-                font-size: 1.3em;
+                margin: 0;
+            }
+
+            .close-btn {
+                font-size: 24px;
+                cursor: pointer;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+
+            form label {
+                margin-bottom: 5px;
+            }
+
+            form input,
+            form textarea,
+            form select {
+                margin-bottom: 15px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+
+            form textarea {
+                resize: none;
+                height: 100px;
             }
 
             form button {
-                font-size: 14px;
+                padding: 10px;
+                background-color: #82064a;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            form button:hover {
+                background-color: #85013f;
             }
 
             .open-btn {
-                padding: 12px 25px;
-                font-size: 14px;
+                position: fixed;
+                right: 0;
+                top: 60%;
+                transform: translateY(-50%);
+                padding: 15px 30px;
+                background-color: #920457;
+                color: #fff;
+                border: none;
+                border-radius: 5px 0 0 5px;
+                cursor: pointer;
+                z-index: 1001;
+                display: none; /* Hidden by default */
             }
-        }
 
-        @media (max-width: 480px) {
-            .enquiry-form {
-                width: 100%;
-
+            .open-btn.visible {
+                display: block; /* Make visible when needed */
             }
 
-            .open-btn {
-                padding: 10px 20px;
-                font-size: 12px;
-                right: -50px;
+            /* Thank You message styles */
+            .thank-you-message {
+                display: none;
+                text-align: center;
+                padding: 20px;
             }
-        }
-            .enquiry-form {
-                 position: fixed;
-                 right: -300px;
-                 top: 30%;
-                 width: 300px;
-                 min-height: 60%
-                 background-color: #ffdd1f;
-                 box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
-                 padding: 15px;
-                 box-sizing: border-box;
-                 transition: right 0.3s ease-in-out;
-                 z-index: 1000;
-             }
 
-             .enquiry-form.active {
-                 right: 0;
-             }
+            .thank-you-message h2 {
+                font-size: 24px;
+                color: #82064a;
+                margin-bottom: 10px;
+            }
 
-             .form-header {
-                 display: flex;
-                 justify-content: space-between;
-                 align-items: center;
-                 margin-bottom: 20px;
-             }
+            .thank-you-message p {
+                font-size: 16px;
+                color: #333;
+            }
 
-             .form-header h2 {
-                 margin: 0;
-             }
+            /* Animation */
+            .fade-in {
+                animation: fadeIn 1s forwards;
+            }
 
-             .close-btn {
-                 font-size: 24px;
-                 cursor: pointer;
-             }
+            @keyframes fadeIn {
+                from { opacity: 0; transform: scale(0.9); }
+                to { opacity: 1; transform: scale(1); }
+            }
+        </style>
 
-             form {
-                 display: flex;
-                 flex-direction: column;
-             }
+        <div class="enquiry-form" id="enquiryForm" style="background-color:#ffcc01">
+            <div class="form-header">
+                <h2>Contact Us</h2>
+                <span class="close-btn" id="closeBtn">&times;</span>
+            </div>
 
-             form label {
-                 margin-bottom: 5px;
-             }
+            <!-- Thank You Message -->
+            <div class="thank-you-message" id="thankYouMessage">
+                <h2>Thank You for Your Inquiry!</h2>
+                <p>We appreciate your interest and look forward to assisting you in your educational journey.</p>
+            </div>
 
-             form input,
-             form textarea {
-                 margin-bottom: 15px;
-                 padding: 10px;
-                 border: 1px solid #ccc;
-                 border-radius: 5px;
-                 font-size: 16px;
-             }
+            <!-- Form -->
+            <form method="post" name="pcimca_form" id="contactForm">
+                <input name="form_name" class="form-control" type="text" required="" placeholder="Enter Name" aria-required="true">
+                <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email" aria-required="true">
+                <input name="form_phone" class="form-control required" type="text" placeholder="Enter Phone" aria-required="true">
+                <select name="form_state" class="form-select form-control required" aria-label="Select State" required>
+                    <option value="" disabled selected>Select State</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Others">Others</option>
+                </select>
+                <select name="city" class="form-select form-control required" aria-label="Select City" required>
+                    <option value="" disabled selected>Select City</option>
+                    <option value="PUNE">PUNE</option>
+                    <option value="MUMBAI">MUMBAI</option>
+                    <option value="Others">Others</option>
+                </select>
+                <select name="course" class="form-select form-control required" aria-label="Select Course" required>
+                    <option value="" disabled selected>Select Course</option>
+                    <option value="MBA">MBA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="BBA">BBA</option>
+                    <option value="BCA">BCA</option>
+                </select>
+                <button type="submit" data-loading-text="Please wait...">Submit</button>
+            </form>
+        </div>
 
-             form textarea {
-                 resize: none;
-                 height: 100px;
-             }
+        <button class="open-btn" id="openBtn" style="font-size: 15px">Contact Form</button>
 
-             form button {
-                 padding: 10px;
-                 background-color: #82064a;
-                 color: #fff;
-                 border: none;
-                 border-radius: 5px;
-                 font-size: 16px;
-                 cursor: pointer;
-                 transition: background-color 0.3s;
-             }
-
-             form button:hover {
-                 background-color: #85013f;
-             }
-
-             .open-btn {
-                 position: fixed;
-                 right: 0;
-                 top: 60%;
-                 transform: translateY(-50%);
-                 padding: 15px 30px;
-                 background-color: #920457;
-                 color: #fff;
-                 border: none;
-                 border-radius: 5px 0 0 5px;
-                 cursor: pointer;
-                 z-index: 1001;
-                 display: none; /* Hidden by default */
-             }
-
-             .open-btn.visible {
-                 display: block; /* Make visible when needed */
-             }
-
-
-         </style>
-          <script>
+        <script>
             document.addEventListener('DOMContentLoaded', function () {
                 const enquiryForm = document.getElementById('enquiryForm');
                 const closeBtn = document.getElementById('closeBtn');
                 const openBtn = document.getElementById('openBtn');
+                const contactForm = document.getElementById('contactForm');
+                const thankYouMessage = document.getElementById('thankYouMessage');
 
                 // Automatically open the form when the page loads
                 setTimeout(function () {
@@ -475,60 +561,43 @@
                         openBtn.classList.add('visible');
                     }
                 });
+
+                // Handle form submission
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbzD_sLKIcd9ok9v_6QbW2u0nhYNHgpow6fX-o5n2fvvjnBP_cG6vt0riPhs7S4yqVV_eQ/exec';
+
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    const submitButton = contactForm.querySelector('button[type="submit"]');
+                    const originalButtonText = submitButton.innerHTML;
+                    submitButton.disabled = true;
+                    submitButton.innerHTML = 'Submitting...';
+
+                    fetch(scriptURL, { method: 'POST', body: new FormData(contactForm) })
+                        .then(response => {
+                            if (response.ok) {
+                                // Hide the form
+                                contactForm.style.display = 'none';
+                                // Show the thank you message with animation
+                                thankYouMessage.style.display = 'block';
+                                thankYouMessage.classList.add('fade-in');
+
+                                // Automatically close the form window after 5 seconds
+                                setTimeout(function () {
+                                    enquiryForm.classList.remove('active');
+                                    openBtn.classList.add('visible');
+                                }, 3000);
+                            } else {
+                                throw new Error('Network response was not ok');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error!', error.message);
+                            alert('There was an error submitting the form. Please try again.');
+                        })
+                        .finally(() => {
+                            submitButton.disabled = false;
+                            submitButton.innerHTML = originalButtonText;
+                        });
+                });
             });
         </script>
-
-<div class="enquiry-form" id="enquiryForm" style="background-color:#ffcc01">
-<div class="form-header">
-<h2>Contact Us</h2>
-<span class="close-btn" id="closeBtn">&times;</span>
-</div>
-
-<form method="post" name="pcimca_form" action="https://script.google.com/macros/s/AKfycbzD_sLKIcd9ok9v_6QbW2u0nhYNHgpow6fX-o5n2fvvjnBP_cG6vt0riPhs7S4yqVV_eQ/exec">
-
-<input name="form_name" class="form-control" type="text" required="" placeholder="Enter Name" aria-required="true">
-
-<input name="form_email" class="form-control required email" type="email" placeholder="Enter Email" aria-required="true">
-
-<input name="form_phone" class="form-control required" type="text" placeholder="Enter Phone" aria-required="true">
-<select name="form_state" class="form-select form-control required" aria-label="Default select example">
-<option selected>Select State</option>
-<option value="Maharashtra">Maharashtra</option>
-<option value="Others">Others</option>
-
-</select>
-<br>
-<select name="city" class="form-select form-control required" aria-label="Default select example">
-<option selected name="city" class="">Select City</option>
-<option value="PUNE">PUNE</option>
-<option value="MUMBAI">MUMBAI</option>
-<option value="Others">Others</option>
-</select>
-<br>
-<select name="course" class="form-select form-control required" aria-label="Default select example">
-<option  selected class="">Select Course</option>
-<option value="MBA">MBA</option>
-<option value="MCA">MCA</option>
-<option value="BBA">BBA</option>
-<option value="BCA">BCA</option>
-</select>
-<br>
-<button type="submit" data-loading-text="Please wait...">Submit</button>
-</form>
-<script>
-
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzD_sLKIcd9ok9v_6QbW2u0nhYNHgpow6fX-o5n2fvvjnBP_cG6vt0riPhs7S4yqVV_eQ/exec'
-
-    const form = document.forms['pcimca_form']
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => alert("Thank you! your form is submitted successfully." ))
-      .then(() => { window.location.reload(); })
-      .catch(error => console.error('Error!', error.message))
-    })
-    </script>
-</div>
-
-<button class="open-btn" id="openBtn" style="font-size: 15px">Contact Form</button>

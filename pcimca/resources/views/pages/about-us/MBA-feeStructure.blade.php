@@ -61,14 +61,85 @@
 
                                 <div class="width40">
 
-                                    <div class="about_innerContent" style="padding: 0px 0 50px;">
+                                    <div class="about_innerContent">
 
                                         <div class="my-2">
 
                                             <div class="img_right">
+                                                <style>
 
-                                                <img src="assets/images/mbafees.png" alt="##" width="75%"
-                                                    height="50%">
+.fees-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fees-table th, .fees-table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.fees-table th {
+    background-color: #f2b01e;
+    color: #900d45;
+    font-size: 18px;
+}
+
+.fees-table td {
+    font-size: 16px;
+    color: #900d45;
+}
+
+.fees-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.fees-table td:first-child {
+    font-weight: bold;
+}
+                                                </style>
+
+                                                <table class="fees-table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Programme</th>
+                                                            <th>Category</th>
+                                                            <th>Fees</th>
+                                                            <th>Note</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td rowspan="5">MBA</td>
+                                                            <td>Open</td>
+                                                            <td>Rs.90,000/-</td>
+                                                            <td>Fees is subject to revision as per directives of Fees Regulatory Authority</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Open (EBC)</td>
+                                                            <td>Rs.49,091/-</td>
+                                                            <td>Fees is subject to revision as per directives of Fees Regulatory Authority</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Open (EWS)</td>
+                                                            <td>Rs.49,091/-</td>
+                                                            <td>Fees is subject to revision as per directives of Fees Regulatory Authority</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>OBC</td>
+                                                            <td>Rs.49,091/-</td>
+                                                            <td>Fees is subject to revision as per directives of Fees Regulatory Authority</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>SC/ST/NC/VJNT/SBC</td>
+                                                            <td>Nil</td>
+                                                            <td>Fees is subject to revision as per directives of Fees Regulatory Authority</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
 
                                             </div>
 

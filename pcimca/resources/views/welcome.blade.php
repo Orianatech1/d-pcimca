@@ -144,6 +144,50 @@
         }
     </style>
 
+
+
+
+    <div class="container scroll" >
+        <style>
+            .scroll{
+                font-size: 18px;
+            }
+        </style>
+
+
+
+              <marquee behavior='scroll' direction='left' onmouseover='this.stop()' onmouseout='this.start()'>
+
+
+           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA Choice Code-<b>MC699224110</b></strong></span>
+
+
+             <span>
+                <strong>/ MBA Choice Code-<b>MB699210110</b></strong></span>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA Choice Code-<b>MC699224110 </b></strong></span>
+
+
+                    <span>
+                       <strong>/ MBA Choice Code-<b>MB699210110</b></strong></span>
+                       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA Choice Code-<b>MC699224110 </b></strong></span>
+
+
+                        <span>
+                           <strong>/ MBA Choice Code-<b>MB699210110</b></strong></span>
+
+
+             </marquee>
+
+    </div>
+
+
+
+
+
+
+
+
+
     <section id="particles-js">
         <div class="owl-carousel_homebanner">
             <div class="item">

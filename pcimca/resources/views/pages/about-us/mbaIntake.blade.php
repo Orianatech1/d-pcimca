@@ -60,13 +60,144 @@
 
                                         <div class="width40">
 
-                                            <div class="about_innerContent" style="padding: 0px 0 50px;">
+                                            <div class="about_innerContent">
 
                                                 <div class="my-2">
 
                                                     <div class="img_right">
+                                                        <style>
+                                                            h3 {
+    color: #7D3C98;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-                                                        <img src="assets/images/intek2.png" alt="##" width="75%" height="50%">
+.seat-matrix {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.seat-matrix th, .seat-matrix td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.seat-matrix th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #3F174B;
+}
+
+.yellow-bg {
+    background-color: #FFD900;
+}
+
+.purple-text {
+    color: #7D3C98;
+    font-weight: bold;
+}
+
+.seat-matrix td {
+    background-color: #ffffff;
+}
+
+.seat-matrix tr:nth-child(even) td {
+    background-color: #f3f3f3;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #3F174B;
+}
+                                                        </style>
+
+                                                        <h3>6992 - Pune Cambridge Institute of Management and Computer Application, Ambegaon Pathar, Pune</h3>
+
+                                                        <table class="seat-matrix">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th rowspan="2">Choice Code</th>
+                                                                    <th rowspan="2">Course Name</th>
+                                                                    <th rowspan="2">SI</th>
+                                                                    <th rowspan="2">MS Seats</th>
+                                                                    <th rowspan="2">All India</th>
+                                                                    <th rowspan="2">Minority Seats</th>
+                                                                    <th rowspan="2">Institute Seats</th>
+                                                                    <th rowspan="2">Orphan</th>
+                                                                    <th colspan="10" class="yellow-bg">CAP Seats: 120</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>Category</th>
+                                                                    <th>OPEN</th>
+                                                                    <th>SC</th>
+                                                                    <th>ST</th>
+                                                                    <th>VJ/DT</th>
+                                                                    <th>NTB</th>
+                                                                    <th>NTC</th>
+                                                                    <th>NTD</th>
+                                                                    <th>OBC</th>
+                                                                    <th>Total</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>699210110</td>
+                                                                    <td>M. B. A.</td>
+                                                                    <td>120</td>
+                                                                    <td>102</td>
+                                                                    <td>18</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>1</td>
+                                                                    <td>HU</td>
+                                                                    <td>32</td>
+                                                                    <td>10</td>
+                                                                    <td>5</td>
+                                                                    <td>2</td>
+                                                                    <td>1</td>
+                                                                    <td>2</td>
+                                                                    <td>2</td>
+                                                                    <td>14</td>
+                                                                    <td>68</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td></td>
+                                                                    <td>OHU</td>
+                                                                    <td>15</td>
+                                                                    <td>4</td>
+                                                                    <td>2</td>
+                                                                    <td>1</td>
+                                                                    <td>1</td>
+                                                                    <td>2</td>
+                                                                    <td>0</td>
+                                                                    <td>5</td>
+                                                                    <td>30</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="9" class="purple-text">PWD</td>
+                                                                    <td class="purple-text">3</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td>0</td>
+                                                                    <td class="purple-text">3</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        <p>Economically Weaker Section (EWS) Seats: 12 &nbsp;&nbsp; TFWS Choice Code: 699210111T &nbsp;&nbsp; Seats: 6</p>
 
                                                     </div>
 

@@ -70,17 +70,7 @@
 
                                                     </div>
                                                     <p style="font-size: 14px; line-height: 1.5;" >
-                                                    The candidate should be an Indian National
-
-                                                    Passed any graduation degree (e.g. B.E / B.Tech/ B.Sc / B.Com / B.A. /B.Voc / BCA etc) preferably with Mathematics at 10+2 level or at Graduation level and obtained (at least 50% Marks in aggregate (at least 45% in case of candidates of Reserved Categories, Economically Weaker Section (EWS) and Persons with Disability category belonging to Maharashtra State only) in the qualifying examination
-
-                                                    The candidate should have obtained non zero positive score in MAH-MCA-CET 2023.
-
-                                                    Passed any graduation degree (e.g. B.E / B.Tech/ B.Sc / B.Com / B.A. /B.Voc / BCA etc) preferably with Mathematics at 10+2 level or at Graduation level and obtained at least 50% marks in the qualifying examination;
-
-                                                    Any other criterion declared from time to time by the appropriate authority as defined under the Act.
-
-                                                    </p>
+                                                </p>
 
                                                 </div>
 
