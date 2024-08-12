@@ -295,11 +295,11 @@ a:hover {
 
     height: auto;
 
-    font-size: 64px;
+    font-size: 36px;
 
     font-family: Metropolis-ExtraBold;
 
-    line-height: 61px;
+    line-height: 40px;
 
     margin: 0 0 23px 0;
 
@@ -845,11 +845,11 @@ a:hover {
 
     height: auto;
 
-    font-size: 64px;
+    font-size: 48px;
 
     font-family: Metropolis-ExtraBold;
 
-    line-height: 61px;
+    line-height: 50px;
 
     margin: 0 0 23px 0;
 
@@ -8249,7 +8249,7 @@ table tr a:hover {
 
     .banner_text2 {
 
-        font-size: 44px;
+        font-size: 36px;
 
     }
 
@@ -8809,7 +8809,7 @@ table tr a:hover {
 
     .banner_text2 {
 
-        font-size: 41px;
+        font-size: 28px;
 
         line-height: normal;
 
@@ -9571,7 +9571,7 @@ table tr a:hover {
 
     .banner_text2 {
 
-        font-size: 37px;
+        font-size: 18px;
 
     }
 
