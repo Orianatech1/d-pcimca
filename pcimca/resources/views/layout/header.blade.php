@@ -374,7 +374,7 @@
                 right: -300px;
                 top: 30%;
                 width: 300px;
-                min-height: 60%;
+                /* min-height: 40%; */
                 background-color: #ffdd1f;
                 box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
                 padding: 15px;
