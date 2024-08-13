@@ -297,8 +297,9 @@
 
 
                                     <li><a href="{{ ('/anti_raging') }}"><span></span>Committee</a>
-                                        <div class="menu_arrow2" onclick="myFunction_admissions()"><img
-                                                src="assets/images/menu_arrow2.png"></div>
+                                        <div class="menu_arrow2" onclick="myFunction_admissions()">
+                                            {{-- <img src="assets/images/menu_arrow2.png"> --}}
+                                        </div>
                                         <div class="navigation_dropdown_box admission_dropdown_box"
                                             id="admissions_dropdown">
                                             <div class="width1240">
