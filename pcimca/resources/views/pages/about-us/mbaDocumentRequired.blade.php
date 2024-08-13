@@ -68,7 +68,7 @@
 
                                                     <div class="img_right">
 
-                                                        <img src="assets/images/architecture_icon.png" alt="">
+
 
                                                     </div>
                                                  <div style="font-size: 14px;">
