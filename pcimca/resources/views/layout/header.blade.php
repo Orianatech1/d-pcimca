@@ -3,6 +3,8 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PCIMCA-HOME</title>
 
 
@@ -71,6 +73,16 @@
                 x.className = "navigation_dropdown_box admission_dropdown_box";
             }
         }
+
+        function myFunction_committee() {
+    var x = document.getElementById("committee_dropdown");
+    if (x.className === "navigation_dropdown_box committee_dropdown_box") {
+        x.className += " academics_open";
+    } else {
+        x.className = "navigation_dropdown_box committee_dropdown_box";
+    }
+}
+
 
         function myFunction_extracontent() {
             var x = document.getElementById("extra_content");
@@ -223,9 +235,9 @@
 
 
                                         <a target="_blank" href="https://www.linkedin.com/company/pcimca/"><span class="linkedin_icon"></span></a>
-                                        <a target="_blank" href="https://instagram.com"><span class="instagram_icon"></span></a>
+                                        <a target="_blank" href="https://www.instagram.com/pcimca/"><span class="instagram_icon"></span></a>
 
-                                        <a target="_blank" href="https://youtube.com"><span class="youtube_icon"></span></a>
+                                        <a target="_blank" href="https://www.youtube.com/@pcimca"><span class="youtube_icon"></span></a>
                                     </div>
 
                                 </div>
@@ -284,7 +296,7 @@
                                     </li>
 
 
-                                    <li><a href="#"><span></span>Committee</a>
+                                    <li><a href="{{ ('/anti_raging') }}"><span></span>Committee</a>
                                         <div class="menu_arrow2" onclick="myFunction_admissions()"><img
                                                 src="assets/images/menu_arrow2.png"></div>
                                         <div class="navigation_dropdown_box admission_dropdown_box"
@@ -316,7 +328,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div></li>
                                     <li><a href="{{ ('/infrastructure') }}"><span></span>Infrastructure</a>
                                     </li>
                                     </li>
