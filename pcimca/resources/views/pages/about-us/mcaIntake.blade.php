@@ -31,7 +31,8 @@
                         <li><a href="{{ url('/mcaDocumentRequired') }}">Document Required</a></li>
                         <li><a href="{{ url('/mcaIntake') }}">Intake </a></li>
                         <li><a href="{{ url('/MCA-FeeStructure') }}"> MCA Fee Structure</a></li>
-                        <li><a href="assets/images/MCA22.pdf" target="_blank">MCA IL & ACAP MeritList</a></li>
+                        <li><a href="assets/pdf/MCA CAP Schedule 2024-25.pdf" target="_blank">MCA CAP Schedule</a></li>
+                        <li><a href="assets/pdf/MCA (Management) 2024 Revised Syllabus_30072024.pdf" target="_blank">MCA Syllabus</a></li>
                     </ul>
                 </div>
             </div>

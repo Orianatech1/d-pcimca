@@ -33,7 +33,8 @@
                     <li><a href="{{ url('/mbaDocumentRequired') }}">Document Required</a></li>
                     <li><a href="{{ url('/mbaIntake') }}">Intake </a></li>
                     <li><a href="{{ url('/MBA-feeStructure') }}">Fee Structure</a></li>
-                    <li><a href="assets/images/MBA11.pdf" target="_blank">MBA IL & ACAP MeritList</a></li>
+                    <li><a href="assets/pdf/MBA CAP Schedule 2024-25.pdf" target="_blank">MBA CAP Schedule</a></li>
+                        <li><a href="assets/pdf/MBA CAP Schedule 2024-25.pdf" target="_blank">MBA Syllabus</a></li>
                 </ul>
             </div>
         </div>

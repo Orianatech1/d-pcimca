@@ -32,7 +32,8 @@
                         <li><a href="{{ url('/mbaDocumentRequired') }}">Document Required</a></li>
                         <li><a href="{{ url('/mbaIntake') }}">Intake </a></li>
                         <li><a href="{{ url('/MBA-feeStructure') }}">Fee Structure</a></li>
-                        <li><a href="assets/images/MBA11.pdf" target="_blank">MBA IL & ACAP MeritList</a></li>
+                        <li><a href="assets/pdf/MBA CAP Schedule 2024-25.pdf" target="_blank">MBA CAP Schedule</a></li>
+                        <li><a href="assets/pdf/MBA CAP Schedule 2024-25.pdf" target="_blank">MBA Syllabus</a></li>
                     </ul>
                 </div>
             </div>
@@ -69,21 +70,65 @@
                                                         <img src="assets/images/architecture_icon.png" alt="">
 
                                                     </div>
-                                                    <p style="font-size: 14px; line-height: 1.5;" >
-                                                    The candidate should fulfill the following eligibility criteria: Passed with of 50% marks in aggregate ( 45% in case of candidates of backward class categories belonging to  Maharashtra State only) in any Bachelor’s degree of minimum 3 years duration in any discipline recognized by the Association of Indian Universities.
+                                                    <style>
+                                                    table {
+                                                        width: 100%;
+                                                        border-collapse: collapse;
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    th, td {
+                                                        padding: 12px;
+                                                        text-align: left;
+                                                        border: 1px solid #ddd;
+                                                    }
+                                                    th {
+                                                        background-color: #f3ff16;
+                                                        color: rgb(144, 14, 77);
+                                                    }
+                                                    td a {
+                                                        color: #840b6d;
+                                                        text-decoration: none;
+                                                    }
+                                                    td a:hover {
+                                                        text-decoration: underline;
+                                                    }
+                                                </style>
 
-                                                    MBA ELIGIBILITY TEST MAH-MBA/MMS CET of Academic Year (Website for MAH-MBA/MMS CET: <a href="http://www.dtemaharashtra.gov.in">http://www.dtemaharashtra.gov.in</a>
+                                                <h2>MBA Program Eligibility Criteria</h2>
+                                                <table>
+                                                    <tr>
+                                                        <th>Criteria</th>
+                                                        <th>Details</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Degree Required</td>
+                                                        <td>Bachelor's degree of a minimum 3 years duration in any discipline recognized by the Association of Indian Universities.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Minimum Marks</td>
+                                                        <td>
+                                                            General Candidates: 50% in aggregate.<br>
+                                                            Backward Class Categories (Maharashtra State only): 45% in aggregate.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Entrance Exam Requirements</td>
+                                                        <td>
+                                                            MAH-MBA/MMS CET: Candidates must have appeared for the MAH-MBA/MMS CET for the academic year. More details can be found on the <a href="https://mba21.dtemaharashtra.gov.in/">DTE Maharashtra MAH-MBA/MMS CET website</a>.<br>
+                                                            Other Accepted Exams: MH CET for MBA-MMS, CMAT, or CAT. Detailed information about these exams is available at:<br>
+                                                            <a href="https://mba21.dtemaharashtra.gov.in/">DTE Maharashtra MBA</a><br>
+                                                            <a href="https://mahaammi.org/">Maha AMMI</a><br>
+                                                            <a href="https://cmat.nta.nic.in/">AICTE CMAT</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Additional Information</td>
+                                                        <td>For more information regarding the MAH-MBA/MMS CET, visit the <a href="https://mba21.dtemaharashtra.gov.in/">DTE Maharashtra 2023-24 website</a>.</td>
+                                                    </tr>
+                                                </table>
 
-                                                    MH CET for MBA-MMS/CMAT/CAT. The detailed entrance test information is available at <a href="www.dte.org.in/mba"> www.dte.org.in/mba</a> <a href="www.mahaammi.com www.aicte-cmat.in
-                                                    ">  www.mahaammi.com www.aicte-cmat.in</a>
 
-                                                    CMAT (Common Management Admission Test) is conducted by All India Council of Technical Education for more information visit www.aictecmat.in
-
-                                                    Click here for more details.
-
-                                                    MAH-MBA/MMS CET Website for <a href ="MAH-MBA/MMS CET: DTE MAHARASHTRA 2023-24">MAH-MBA/MMS CET: DTE MAHARASHTRA 2023-24</a>
-
-                                                </p></div>
+                                            </div>
 
 
                                             </div>

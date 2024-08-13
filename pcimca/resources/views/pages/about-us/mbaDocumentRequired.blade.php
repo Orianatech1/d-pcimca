@@ -33,7 +33,8 @@
                         <li><a href="{{ url('/mbaDocumentRequired') }}">Document Required</a></li>
                         <li><a href="{{ url('/mbaIntake') }}">Intake </a></li>
                         <li><a href="{{ url('/MBA-feeStructure') }}">Fee Structure</a></li>
-                        <li><a href="assets/images/MBA11.pdf" target="_blank">MBA IL & ACAP MeritList</a></li>
+                        <li><a href="assets/pdf/MBA CAP Schedule 2024-25.pdf" target="_blank">MBA CAP Schedule</a></li>
+                        <li><a href="assets/pdf/MBA CAP Schedule 2024-25.pdf" target="_blank">MBA Syllabus</a></li>
                     </ul>
                 </div>
             </div>
@@ -84,9 +85,7 @@
                                                   <P>11. Nationality/ Domicile Certificate (wherever necessary).</P>
                                                   <P>12. Gap Certificate (In case of Gap in education).</P>
                                                   <p>13. Marriage Certificate (for change in name in case of married female candidates)</br> Passport size photograph – 05 nos. All original certificates & attested true copies </br> (2 sets) are to be submitted at the time of securing the admission Candidates will have to submit </br> any other certificates as will be stipulated by the DTE/S.P.</br>  Pune University from time to time. Students who are appearing for the </br> qualifying exams in April / May 2013 should submit their qualifying </br> degrees and marks- sheets to the office for verification as early as possible.
-                                                    Accusantium a</br>  laboriosam cumque consequatur voluptates fuga assumenda corporis amet.</br>  Vitae placeat architecto ipsa cumque fugiat, atque molestiae perferendis quasi quaerat iste voluptate quas dicta</br>  corporis, incidunt quibusdam quia odit unde, rem harum quis! Optio debitis veniam quibusdam, </br> culpa quia, aperiam cupiditate perspiciatis repellat similique saepe magnam quaerat iusto obcaecati doloremque, </br> dolor praesentium.
-
-                                                    Intake</p>
+                                                   </p>
                                                 </div>
 
                                                 </div>

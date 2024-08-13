@@ -33,7 +33,8 @@
                     <li><a href="{{ url('/mcaDocumentRequired') }}">Document Required</a></li>
                     <li><a href="{{ url('/mcaIntake') }}">Intake </a></li>
                     <li><a href="{{ url('/MCA-FeeStructure') }}"> MCA Fee Structure</a></li>
-                    <li><a href="assets/images/MCA22.pdf">MCA IL & ACAP MeritList</a></li>
+                    <li><a href="assets/pdf/MCA CAP Schedule 2024-25.pdf" target="_blank">MCA CAP Schedule</a></li>
+                    <li><a href="assets/pdf/MCA (Management) 2024 Revised Syllabus_30072024.pdf" target="_blank">MCA Syllabus</a></li>
                 </ul>
             </div>
         </div>
@@ -87,22 +88,14 @@
                                             <p> 11. Nationality/ Domicile Certificate (wherever necessary).</p>
                                             <p> 12. Gap Certificate (In case of Gap in education).</p>
                                             <p> 13. Marriage Certificate (for change in name in case of married female
-                                                candidates)</br> Passport size photograph – 05 nos.
-                                                All original certificates & attested true copies </br>(2 sets) are to be
-                                                submitted at the time of securing the admission Candidates </br>will
-                                                have to submit any other certificates as will be stipulated by the</br>
-                                                DTE/S.P. Pune University from time to time. Students who are appearing
-                                                for the</br> qualifying exams in April / May 2013 should submit their
-                                                qualifying degrees and marks- sheets </br>to the office for verification
-                                                as early as possible.</br>
+                                                candidates)</br> Passport size photograph – 05 nos. All original certificates & attested true copies </br>(2 sets) are to be
+                                                submitted at the time of securing the admission Candidates will
+                                                have to submit any other certificates as will be stipulated by the
+                                                DTE/S.P. <br>Pune University from time to time. Students who are appearing
+                                                for the qualifying exams in April / May 2013 should submit their
+                                                qualifying degrees and marks- sheets to the office for verification
+                                                as early as possible.
 
-                                                Accusantium a laboriosam cumque consequatur voluptates fuga assumenda
-                                                corporis amet.</br> Vitae placeat architecto ipsa cumque fugiat, atque
-                                                molestiae perferendis</br> quasi quaerat iste voluptate quas dicta
-                                                corporis, incidunt quibusdam quia odit unde,</br> rem harum quis! Optio
-                                                debitis veniam quibusdam, culpa quia, aperiam cupiditate
-                                                </br>perspiciatis repellat similique saepe magnam quaerat iusto
-                                                obcaecati doloremque, dolor praesentium.</br>
 
                                             </div>
                                         </div>
