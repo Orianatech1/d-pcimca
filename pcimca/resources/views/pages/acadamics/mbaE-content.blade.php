@@ -49,7 +49,7 @@
                             <div class="single-service">
                                 <div class="row pt-5"></div>
                                 <div class="center_heading left_heading">
-                                    EXAMINATION CALENDAR
+                                    E-CONTENT
                                     <div class="center_head_img left_head_img"></div>
                                 </div>
                                 <div class="row pt-3"></div>

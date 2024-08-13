@@ -61,6 +61,44 @@
                                     <div class="center_head_img left_head_img"></div>
 
                                 </div>
+                                <style>
+                                    /* CSS for the heading */
+                                    #blinking-heading {
+                                        font-size: 2em;
+                                        text-align: center;
+                                        /* margin-top: 20%; */
+                                        animation: blinkColorChange 3s infinite;
+
+                                    }
+                                    #blinking-heading:hover {
+                                        animation-play-state: paused;
+                                    }
+
+                                    /* Keyframes for blinking and color-changing effect */
+                                    @keyframes blinkColorChange {
+                                        0% {
+                                            opacity: 1;
+                                            color: rgb(111, 6, 45);
+                                        }
+                                        25% {
+                                            opacity: 0;
+                                            color: rgb(255, 255, 42);
+                                        }
+                                        50% {
+                                            opacity: 1;
+                                            color: rgb(28, 3, 73);
+                                        }
+                                        75% {
+                                            opacity: 0;
+                                            color: rgb(189, 132, 26);
+                                        }
+                                        100% {
+                                            opacity: 1;
+                                            color: rgb(91, 21, 21);
+                                        }
+                                    }
+                                </style>
+                               <h1 id="blinking-heading"><a target="_blank" style="color: inherit" href="assets/pdf/freeEduGR.pdf">As Per Govt. GR Free Education For Girls (Conditions Apply*)</a></h1>
 
                                 <div class="width100">
 

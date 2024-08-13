@@ -116,8 +116,8 @@
                                     <div class="display-table">
                                         <div class="display-table-cell">
                                             <div class="icon-box mb-0">
-                                                <a href="MBA.html">
-                                                    <img src="../../assets/images/mba-1.png" width="150px" alt=""
+                                                <a href="#">
+                                                    <img src="assets/images/mba-1.png" width="150px" alt=""
                                                         class="center">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
                                                 </a>
@@ -148,7 +148,7 @@
                                             <div class="icon-box mb-0">
                                                 <a href="#">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
-                                                    <img src="../../assets/images/mba-2.png" width="150px" alt=""
+                                                    <img src="assets/images/mba-2.png" width="150px" alt=""
                                                         class="center">
                                                 </a>
                                                 <h3 class="icon-box-title text-white" align="center">Finance Management
@@ -178,7 +178,7 @@
                                             <div class="icon-box mb-0">
                                                 <a href="#">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
-                                                    <img src="../../assets/images/mba-3.png" width="150px" alt=""
+                                                    <img src="assets/images/mba-3.png" width="150px" alt=""
                                                         class="center">
                                                 </a>
                                                 <h3 class="icon-box-title text-white" align="center">HR Management</h3>
@@ -208,8 +208,8 @@
                                     <div class="display-table">
                                         <div class="display-table-cell">
                                             <div class="icon-box mb-0">
-                                                <a href="MBA.html">
-                                                    <img src="../../assets/images/mba-4.png" width="150px" alt=""
+                                                <a href="#">
+                                                    <img src="assets/images/mba-4.png" width="150px" alt=""
                                                         class="center">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
                                                 </a>
@@ -240,7 +240,7 @@
                                             <div class="icon-box mb-0">
                                                 <a href="#">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
-                                                    <img src="../../assets/images/mba-5.png" width="150px" alt=""
+                                                    <img src="assets/images/mba-5.png" width="150px" alt=""
                                                         class="center">
                                                 </a>
                                                 <h3 class="icon-box-title text-white" align="center">Operation and
@@ -280,8 +280,8 @@
                                     <div class="display-table">
                                         <div class="display-table-cell">
                                             <div class="icon-box mb-0">
-                                                <a href="MBA.html">
-                                                    <img src="../../assets/images/mba-6.png" width="150px" alt=""
+                                                <a href="#">
+                                                    <img src="assets/images/mba-6.png" width="150px" alt=""
                                                         class="center">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
                                                 </a>
@@ -313,7 +313,7 @@
                                             <div class="icon-box mb-0">
                                                 <a href="#">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
-                                                    <img src="../../assets/images/mba-7.png" width="150px" alt=""
+                                                    <img src="assets/images/mba-7.png" width="150px" alt=""
                                                         class="center">
                                                 </a>
                                                 <h3 class="icon-box-title text-white" align="center">Pharma & Healthcare
@@ -344,8 +344,8 @@
                                     <div class="display-table">
                                         <div class="display-table-cell">
                                             <div class="icon-box mb-0">
-                                                <a href="MBA.html">
-                                                    <img src="../../assets/images/mba-8.png" width="150px" alt=""
+                                                <a href="#">
+                                                    <img src="assets/images/mba-8.png" width="150px" alt=""
                                                         class="center">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
                                                 </a>
@@ -377,7 +377,7 @@
                                             <div class="icon-box mb-0">
                                                 <a href="#">
                                                     <!-- <i class="text-white pe-7s-users font-72"></i> -->
-                                                    <img src="../../assets/images/mba-9.png" width="150px" alt=""
+                                                    <img src="assets/images/mba-9.png" width="150px" alt=""
                                                         class="center">
 
                                                 </a>

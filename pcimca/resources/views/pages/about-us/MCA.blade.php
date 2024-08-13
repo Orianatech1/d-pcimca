@@ -67,7 +67,7 @@
 
                                                     <div class="img_left">
 
-                                                        <img src="assets/images/architecture_icon.png" alt="">
+
 
                                                     </div>
                                                     <p style="font-size: 14px; line-height: 1.5;" >

@@ -109,12 +109,7 @@
 
 
 
-                        {{-- <div class="logo_text" style="color:white; margin-left: 12px;">
-                            <h6 align="left">Purandhar Technical Education Society’s.</h6>
-                            <h5 align="left">PUNE CAMBRIDGE INSTITUTE OF MANAGEMENT AND COMPUTER APPLICATION</h5>
-                            <h6 align="left">Approved by AICTE, Recognised by DTE & Affiliated to Savitribai Phule Pune
-                                University</h6>
-                        </div> --}}
+
                         <div class="top_right" style="margin-top: -30px">
                             <div class="width100 top_box2">
                                 <div class="top_btn_box">
