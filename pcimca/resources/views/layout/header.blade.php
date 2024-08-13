@@ -104,7 +104,7 @@
                     <div class="width100" style="margin-top: -40px">
                         <div>
 
-                            <a href="{{ ('/') }}"><img src="/assets/images/Header.png" style="max-width: 100%"></a>
+                            <a href="{{ ('/') }}"><img src="/assets/images/Header.png" style="max-width: 80%"></a>
                         </div>
 
 
@@ -115,7 +115,7 @@
                             <h6 align="left">Approved by AICTE, Recognised by DTE & Affiliated to Savitribai Phule Pune
                                 University</h6>
                         </div> --}}
-                        <div class="top_right" style="margin-top: -15px">
+                        <div class="top_right" style="margin-top: -30px">
                             <div class="width100 top_box2">
                                 <div class="top_btn_box">
 
