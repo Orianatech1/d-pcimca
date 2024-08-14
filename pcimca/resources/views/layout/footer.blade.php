@@ -132,7 +132,8 @@
 
 
                 <div class="copyright">
-                    &copy; 2024 Pune Cambridge Institute of Management and Computer Application. All rights reserved.
+                    &copy; 2024 Designed By <a target="_blank" style="color:
+#276fbb" href="https://orianatechsolutions.com">ORIANATECH</a> | Pune Cambridge Institute of Management and Computer Application. All rights reserved.
                 </div>
             </div>
 
