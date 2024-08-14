@@ -179,7 +179,10 @@
                                                 <ul>
                                                     <li></li>
                                                     <li><a href="/assets/images/MBA-1st man1.pdf">MBA</a></li>
-                                                    <li><a href="/assets/images/MCA 1st year.pdf">MCA</a></li>
+                                                    <li><a href="/assets/images/MCA 1st year.pdf">MCA</a>
+                                                    </li>
+                                                    <li><a target="_blank" href="assets/pdf/cap rount I list.pdf">Allotment List-I</a></li>
+                                                    <li><a target="_blank" href="assets/pdf/mca cut off I.pdf">MCA Cut Off Cap Round-I</a></li>
                                                 </ul>
                                             </div>
 

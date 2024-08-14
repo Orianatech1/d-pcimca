@@ -147,36 +147,42 @@
 
 
 
-    <div class="container scroll" >
+    <div class="container scroll">
         <style>
-            .scroll{
+            .scroll {
                 font-size: 18px;
             }
         </style>
 
 
 
-              <marquee behavior='scroll' direction='left' onmouseover='this.stop()' onmouseout='this.start()'>
+        <marquee behavior='scroll' direction='left' scrollamount="15" scrolldelay="50" onmouseover='this.stop()'
+            onmouseout='this.start()'>
+
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA Choice
+                    Code-<b>MC699224110</b></strong></span>
 
 
-           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA Choice Code-<b>MC699224110</b></strong></span>
-
-
-             <span>
+            <span>
                 <strong>/ MBA Choice Code-<b>MB699210110</b></strong></span>
-                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA Choice Code-<b>MC699224110 </b></strong></span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <strong><a style="color: rgb(213, 149, 20)" href="assets/pdf/cap rount I list.pdf">Provisional Allotment
+                        List of CAP Round-I(2024)</a> </b></strong></span>
 
 
-                    <span>
-                       <strong>/ MBA Choice Code-<b>MB699210110</b></strong></span>
-                       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA Choice Code-<b>MC699224110 </b></strong></span>
+            <span>
+                <strong><img src="assets/images/output-onlinegiftools.gif" />/ <a style="color: rgb(213, 149, 20)"
+                        href="assets/pdf/mca cut off I.pdf">Cut Off List for All India Seats of CAP Round
+                        I</a></strong></span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MCA
+                    Choice Code-<b>MC699224110 </b></strong></span>
 
 
-                        <span>
-                           <strong>/ MBA Choice Code-<b>MB699210110</b></strong></span>
+            <span>
+                <strong>/ MBA Choice Code-<b>MB699210110</b></strong></span>
 
 
-             </marquee>
+        </marquee>
 
     </div>
 
@@ -208,11 +214,12 @@
                     <div class="banner_section width100">
                         <div class="width100 banner_img_box" style="background-image: url(assets/images/slider/1.png);">
                             <div class="banner_leftbox" data-aos="fade-right">
-                                <div class="banner_text2">Build a Strong Foundation in Management and Entrepreneurship</div>
+                                <div class="banner_text2">Build a Strong Foundation in Management and Entrepreneurship
+                                </div>
                             </div>
                         </div>
                     </div>
-   </div>
+                </div>
             </div>
             <div class="item">
                 <div class="container">
@@ -397,7 +404,8 @@
                                             </div>
                                             <div class="whylist_heading">
                                                 Under <br>
-                                                <span style="font-size:24px;color: #D15D0E">Savitribai Phule University</span><br>
+                                                <span style="font-size:24px;color: #D15D0E">Savitribai Phule
+                                                    University</span><br>
                                                 Top University
                                             </div>
 
@@ -425,7 +433,7 @@
                                         </div>
                                         <div class="whylist_flip_back" onclick="myFunction_flip3()"
                                             style="padding: 55px 20px 20px 20px;">
-                                           Top University
+                                            Top University
                                         </div>
                                     </div>
                                 </div>
@@ -514,7 +522,7 @@
                     <div class="container">
                         <div class="width100">
                             <div class="center_heading">
-                                Our Training and  Recruitment Partners
+                                Our Training and Recruitment Partners
                                 <div class="center_head_img"></div>
                             </div>
                         </div>
@@ -534,15 +542,16 @@
                                                 Future!</i></b>. This initiative provides crucial skill-building
                                         sessions every Saturday, focusing on technical, soft, and hard skills essential
                                         for career success. Through SkillSaturDose, students get benefits from
-                                        comprehensive training that includes aptitude development,<br> communication skills
+                                        comprehensive training that includes aptitude development,<br> communication
+                                        skills
                                         enhancement, group discussions, and personal interview preparation.
-<br>
+                                        <br>
                                         <br>In addition to SkillSaturDose, our Placement Cell enriches students'
                                         learning experience by organizing guest lectures and expert talk sessions with
                                         renowned HR professionals and <br>industry experts from leading companies. These
                                         interactions provide valuable insights into industry trends and expectations,
                                         helping the students to stay ahead in the competitive job market.
-<br>
+                                        <br>
                                         <br>We also offer mock interviews, company-specific online tests, and
                                         personalized career counseling to ensure that our students are well-equipped to
                                         face industry challenges. By bridging the gap between academic learning and
